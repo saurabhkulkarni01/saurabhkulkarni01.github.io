@@ -247,23 +247,19 @@ src="https://code.jquery.com/jquery-3.5.1.js"></script>
         </div>
         <div class="contact-right-col">
             <form action="mailto:saurabhmk01@gmail.com"
-
-
             method="POST"
-            
-            
-            enctype="multipart/form-data"
-            
-            
+           enctype="multipart/form-data"
             name="EmailForm" >
                 <h2>Connect with me !!</h2>
-                <input type="text"  placeholder="Name">
-                <input type="email"  placeholder="Email">
+                <input type="text" name="Contact-name" placeholder="Name">
+                <input type="email" name="Contact-email" placeholder="Email">
                 <br>
-                <textarea cols="40" rows="10" placeholder="Message"></textarea>
-                <br>
-                <button class="c-button">Send</button>
+                <textarea cols="40" name="contact-message" rows="10" placeholder="Message"></textarea>
+                <br><br>
+                <button type="submit" class="c-button">Send</button>
             </form>
+            <!-- Sample HTML Form -->
+
         </div>
 
     </div>
