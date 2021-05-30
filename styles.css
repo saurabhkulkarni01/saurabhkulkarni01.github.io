@@ -343,7 +343,7 @@ progress{
   #foot li:nth-child(4) a:before {
     background: #dd4b39;
   }
-  @media only screen and (max-width:1300px){
+  @media only screen and (max-width:1000px){
       header{
         width:100%;
           height:40vh;
