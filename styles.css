@@ -1,7 +1,8 @@
 
+  
 header{
     width: 100%;
-    height: 70vh;
+    height: 80vh;
     background:  url(bg1.jpeg) ;
     background-size:  cover;
     background-position:  center;
@@ -247,7 +248,7 @@ progress{
 
 @media screen and (max-width: 600px){
     .text{
-        transform: translateX(-30px) translateY(-30px);
+        transform: translateX(-10px) translateY(-10px);
     }
 }
 
@@ -342,4 +343,29 @@ progress{
   #foot li:nth-child(4) a:before {
     background: #dd4b39;
   }
-  
+  @media only screen and (max-width:1300px){
+      header{
+        width:100%;
+          height:40vh;
+          letter-spacing:2px;
+      }
+      .text{
+    color: white;
+    margin-top: 15%;
+    margin-left: 0%;
+    max-width: 80%;
+}
+.text h1{
+    font-size: 50px;
+    margin: 10px 0px;
+}
+.text p{
+    font-size: 25px;
+}
+.contact-left-col{
+    flex-basis: 40%;
+}
+.contact-right-col{
+    flex-basis: 60%;
+}
+  }
